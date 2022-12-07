@@ -1,0 +1,9 @@
+id: SvelteComponent
+name: SvelteComponent
+version: 0.0.1
+author_name: redamoon
+author_link: https://www.redamoon.net/
+description: Svelte Web Component
+blog_config_template: svelte_component.tmpl
+callbacks:
+    MT::App::CMS::template_source.header: $SvelteComponent::SvelteComponent::Callbacks::template_source_header
